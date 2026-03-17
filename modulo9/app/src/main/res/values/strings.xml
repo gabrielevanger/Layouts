@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Layouts</string>
+    <string name="logo_description">DevUp</string>
+    <string name="person_name">Gabriel Evangelista</string>
+    <string name="person_role">Desenvolvedor Android</string>
+    <string name="company_name">DEVUP MOBILE</string>
+    <string name="person_phone">(11) 99999-0000</string>
+    <string name="person_email">gabriel@email.com</string>
+    <string name="person_address">Sao Paulo - SP</string>
+</resources>
