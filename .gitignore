@@ -1,35 +1,39 @@
-# Android
-*.iml
+# Global .gitignore for this repository (Aulas)
+
+# Android / Gradle
 .gradle/
-local.properties
-/build
-/captures
-.externalNativeBuild/
-.cxx/
+**/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
 *.apk
 *.aab
 *.ap_
 *.dex
+
+# Java / Kotlin outputs
 *.class
 bin/
 gen/
 out/
 release/
 
-# Android Studio / IDEA
+# Android Studio / IntelliJ
 .idea/
 *.iml
-.idea/caches
-.idea/libraries
+.idea/caches/
+.idea/libraries/
 .idea/modules.xml
 .idea/workspace.xml
 .idea/navEditor.xml
 .idea/assetWizardSettings.xml
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Local config (não versionar)
+# Local and secrets
 local.properties
 *.keystore
+*.jks
+keystore.properties
+
+# OS files
+.DS_Store
+Thumbs.db
